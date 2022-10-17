@@ -339,7 +339,7 @@ export default Kapsule({
       .nodeColor('__indexColor')
       .linkColor('__indexColor')
       .isShadow(true),
-    colorTracker: new ColorTracker() // indexed objects for rgb lookup
+    colorTracker: new ColorTracker(2) // indexed objects for rgb lookup
   }),
 
   init: function(domNode, state) {
